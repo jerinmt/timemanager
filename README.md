@@ -53,3 +53,6 @@ Project completed.
 
 Replaced use of moment js and used offset to calculate timezones. As moment js is very big. 
  
+30 January 2025
+
+Deployed the webapp using ghpages.

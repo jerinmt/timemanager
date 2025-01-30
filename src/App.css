@@ -1,0 +1,84 @@
+.cardapps {
+  margin: 0%;
+  padding: 0%;
+}
+.firstrow {
+  display:flex;
+  flex-wrap: wrap;
+  flex:350px;
+  justify-content: space-around;
+  align-content: center;
+  justify-content: center;
+}
+.secondrow {
+  display:flex;
+  flex-wrap: wrap;
+  flex:350px;
+  justify-content: space-around;
+  align-content: center;
+  justify-content: center;
+}
+.cards {
+  border: 1px solid hsl(0, 0%, 0%);
+  border-radius: 10px;
+  box-shadow: 5px 10px 5px hsla(0, 0%, 0%);
+  padding:5px;
+  background-color: hsl(0, 0%, 40%);
+  margin:5px;
+  text-align: center;
+  width: 31vw;
+  min-width: 350px;
+  height: 20vh;
+  display:inline-block;
+}
+.cards:hover {
+      background-color: hsl(0, 0%, 50%);
+}
+.clock {
+  padding: 0px;
+  font-size: 1rem;
+  font-family: Impact, sans-serif;
+  font-weight: bold;
+  text-shadow: 3px 3px 5px black;
+  text-align: center;  
+}
+.clock2 {
+  padding: 0px;
+  font-size: 2rem;
+  font-family: Impact, sans-serif;
+  font-weight: bold;
+  text-shadow: 3px 3px 5px black;
+  text-align: center;  
+}
+
+.timer{
+  padding: 0px;
+  margin: 0px;
+  height: auto;
+}
+.stopwatch {
+  padding: 0px;
+  margin: 0px;
+  height: auto;
+}
+.notepad {
+  padding: 0px;
+  margin: 0px;
+  height:fit-content;
+}
+body {
+  color: white;
+  background-color: hsl(0, 0%, 30%);
+}
+.controls {
+  margin:0px;
+  display: flexbox;
+  padding: 0px;
+}
+#hours, #minutes, #seconds {
+  width:40px;
+}
+button {
+  width: 25%;
+  font-size: 80%;
+}

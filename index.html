@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time Manager by JMT</title>
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="/src/assets/timeline.js"></script>
+    <script type="text/javascript" src="/src/assets/timelinescript.js"></script>
+    <link rel="stylesheet" type="text/css" href="/src/assets/timeline.css">
+  </head>
+  <body>
+    <dialog>
+      <ul>
+          <p>Instructions for timeline</p>
+            <li>Use the time control buttons to get required time period</li>
+            <li>Click and drag on the time axis to move the timeline, scroll to zoom the timeline</li>
+            <li>Click and drag an item to change its date, double-click to change its text</li>
+            <li>Double click or ctrl+drag on an empty spot in the timeline to create a new item</li>
+        </ul>
+        <button onclick="document.querySelector('dialog').close();">OK</button>
+  </dialog>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <div class="timecard">
+      <div id="mytimeline"></div>
+      </div>
+      <div style="display: none;">
+      <p>
+          Starttime: <input type="text" id="startDate" value="">
+          Endtime:   <input type="text" id="endDate" value="">
+          <input type="button" id="setRange" value="Set" onclick="setTime();">
+          <input type="button" id="setCurrentTime" value="Current time" onclick="setCurrentTime();">
+      </p>
+      </div>
+      <br>
+      <div id="info" style="display: none;"></div>
+      <script>
+      document.querySelector("dialog").showModal();
+      </script>      
+  </body>
+</html>

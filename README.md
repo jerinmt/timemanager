@@ -1,6 +1,6 @@
 A time manager webapp
 
-This webapp is mainly focused on computer users rather than mobile users to be used during their work. There are 3 clock apps that can be set to different timezones. It also has a timer, a stopwatch and a notepad to help with work. The main feature is the scheduler which can be used to plan and organize work.
+This webapp is mainly focused on computer users rather than mobile users to be used during their work. There are 3 clock apps that can be set to different timezones. It also has a timer, a stopwatch and a notepad to help with work. The main feature is the scheduler which can be used to plan and organize work(mobile user experiencing bug).
 
 
 
